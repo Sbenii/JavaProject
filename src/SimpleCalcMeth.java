@@ -13,9 +13,11 @@ public class SimpleCalcMeth {
         y=Input.nextInt();
         if(Op.equals("*")) {
             System.out.println("The product of the two numbers: " + MCalc(x, y));
-        } else if (Op.equals("+")) {
+        }
+        else if (Op.equals("+")) {
             System.out.println("The sum of the two numbers: "+SCalc(x,y));
-        } else if (Op.equals("-")) {
+        }
+        else if (Op.equals("-")) {
             System.out.println("The difference of the two numbers: "+SuCalc(x,y));
         }else {
             System.out.println("The quotient of the two numbers is: "+DCalc(x,y));
