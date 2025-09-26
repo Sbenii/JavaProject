@@ -8,5 +8,6 @@ public class Greetings {
         System.out.println("What is your second name: ");
         name2=Input.nextLine();
         System.out.println("Welcome to this place "+name1+" "+name2);
+
     }
 }
